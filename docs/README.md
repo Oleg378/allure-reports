@@ -1,1 +1,1 @@
-This repo is designed to store test artifacts;
+This repo is designed to store test artifacts.
