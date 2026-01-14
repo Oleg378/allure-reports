@@ -1,0 +1,6 @@
+{
+  "step": "Retrieve admin token",
+  "timestamp": "2026-01-14T21:14:15.142Z",
+  "error": "apiRequestContext.post: connect ECONNREFUSED 172.22.0.5:8080\nCall log:\n\u001b[2m  - → POST http://backend:8080/api/method/login\u001b[22m\n\u001b[2m    - user-agent: Playwright/1.54.2 (arm64; ubuntu 22.04) node/22.18\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - content-type: application/json\u001b[22m\n\u001b[2m    - content-length: 37\u001b[22m\n",
+  "stack": "apiRequestContext.post: connect ECONNREFUSED 172.22.0.5:8080\nCall log:\n\u001b[2m  - → POST http://backend:8080/api/method/login\u001b[22m\n\u001b[2m    - user-agent: Playwright/1.54.2 (arm64; ubuntu 22.04) node/22.18\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - content-type: application/json\u001b[22m\n\u001b[2m    - content-length: 37\u001b[22m\n\n    at action (/app/tests/tools/manager/ApiManager.ts:111:33)\n    at /app/tests/tools/manager/ApiManager.ts:222:40\n    at ApiManager.withStep (/app/tests/tools/manager/ApiManager.ts:220:32)\n    at ApiManager.post (/app/tests/tools/manager/ApiManager.ts:110:21)\n    at Function.postRetrieveAdminCookies (/app/tests/app/api/ApiClient.ts:31:26)\n    at /app/tests/specs/api/create.user.spec.ts:9:29"
+}
