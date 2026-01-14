@@ -1,0 +1,4 @@
+{
+  "exc_type": "DoesNotExistError",
+  "_server_messages": "[\"{\\\"message\\\": \\\"User aboba_boba@example.com not found\\\", \\\"title\\\": \\\"Message\\\", \\\"indicator\\\": \\\"red\\\", \\\"raise_exception\\\": 1, \\\"__frappe_exc_id\\\": \\\"d043ee384cd554a902b8986b14c8c0a61b705bc5aae83a91cd517011\\\"}\"]"
+}
