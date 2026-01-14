@@ -1,0 +1,296 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "App Logo":
+    - /url: /app
+    - img "App Logo"
+  - list
+  - search:
+    - combobox "Search or type a command (Ctrl + G)"
+    - status: Begin typing for results.
+    - img
+  - list:
+    - listitem:
+      - button "No new notifications You have unseen notifications":
+        - text: No new notifications
+        - img
+        - text: You have unseen notifications
+        - img
+      - menu:
+        - tablist:
+          - listitem: Notifications
+          - listitem: Events
+          - listitem: What's New
+        - img "Generic Empty State"
+        - text: No New notifications Looks like you haven’t received any notifications.
+    - listitem:
+      - button [expanded]:
+        - img
+    - listitem
+    - listitem:
+      - button "Help Dropdown":
+        - text: Help
+        - img
+      - menu:
+        - link "Documentation":
+          - /url: https://docs.erpnext.com/
+        - link "User Forum":
+          - /url: https://discuss.frappe.io
+        - link "Frappe School":
+          - /url: https://frappe.io/school?utm_source=in_app
+        - link "Report an Issue":
+          - /url: https://github.com/frappe/erpnext/issues
+        - button "About"
+        - button "Keyboard Shortcuts"
+        - link "Frappe Support":
+          - /url: https://frappe.io/support
+    - listitem:
+      - button "User Menu": JS
+      - menu:
+        - link "My Profile":
+          - /url: /app/user-profile
+        - button "My Settings"
+        - button "Session Defaults"
+        - button "Reload"
+        - button "View Website"
+        - link "Apps":
+          - /url: /apps
+        - button "Toggle Full Width"
+        - button "Toggle Theme"
+        - button "Log out"
+- button "Toggle Sidebar":
+  - img
+  - img
+- heading "New Quotation" [level=3]
+- text: Not Saved
+- button:
+  - img
+- button
+- button "Menu":
+  - img
+- menu:
+  - listitem:
+    - link "Print":
+      - /url: "#"
+  - listitem:
+    - link "Email Ctrl+E":
+      - /url: "#"
+  - listitem:
+    - link "Jump to field Ctrl+J":
+      - /url: "#"
+  - listitem:
+    - link "Links":
+      - /url: "#"
+  - listitem:
+    - link "Duplicate ⇧+D":
+      - /url: "#"
+  - listitem:
+    - link "Copy to Clipboard":
+      - /url: "#"
+  - listitem:
+    - link "Reload":
+      - /url: "#"
+  - listitem:
+    - link "Remind Me ⇧+R":
+      - /url: "#"
+  - listitem:
+    - link "Undo Ctrl+Z":
+      - /url: "#"
+  - listitem:
+    - link "Redo Ctrl+Y":
+      - /url: "#"
+  - listitem:
+    - link "New Quotation Ctrl+B":
+      - /url: "#"
+- button
+- button "Actions":
+  - text: Actions
+  - img
+- menu
+- button "Save"
+- link "Navigate to main content"
+- tablist:
+  - listitem:
+    - tab "Details"
+  - listitem:
+    - tab "Address & Contact"
+  - listitem:
+    - tab "Terms"
+  - listitem:
+    - tab "More Info"
+  - listitem:
+    - tab "Connections"
+- tabpanel "Details":
+  - paragraph
+  - text: __newname
+  - paragraph
+  - text: title
+  - paragraph
+  - text: naming_series
+  - paragraph
+  - text: quotation_to
+  - paragraph
+  - text: party_name
+  - paragraph
+  - text: customer_name
+  - paragraph
+  - text: transaction_date
+  - paragraph
+  - text: valid_till
+  - paragraph
+  - text: order_type
+  - paragraph
+  - text: company
+  - paragraph
+  - text: has_unit_price_items
+  - paragraph
+  - text: amended_from Currency and Price List
+  - paragraph
+  - text: currency
+  - paragraph
+  - text: conversion_rate
+  - paragraph
+  - text: selling_price_list
+  - paragraph
+  - text: price_list_currency
+  - paragraph
+  - text: plc_conversion_rate
+  - paragraph
+  - text: ignore_pricing_rule
+  - paragraph
+  - text: scan_barcode items
+  - paragraph
+  - text: total_qty
+  - paragraph
+  - text: total_net_weight
+  - paragraph
+  - text: base_total
+  - paragraph
+  - text: base_net_total
+  - paragraph
+  - text: total
+  - paragraph
+  - text: net_total Taxes and Charges
+  - paragraph
+  - text: tax_category
+  - paragraph
+  - text: taxes_and_charges
+  - paragraph
+  - text: shipping_rule
+  - paragraph
+  - text: incoterm
+  - paragraph
+  - text: named_place taxes
+  - paragraph
+  - text: base_total_taxes_and_charges
+  - paragraph
+  - text: total_taxes_and_charges Totals
+  - paragraph
+  - text: base_grand_total
+  - paragraph
+  - text: base_rounding_adjustment
+  - paragraph
+  - text: base_rounded_total
+  - paragraph
+  - text: base_in_words
+  - paragraph
+  - text: grand_total
+  - paragraph
+  - text: rounding_adjustment
+  - paragraph
+  - text: rounded_total
+  - paragraph
+  - text: disable_rounded_total
+  - paragraph
+  - text: in_words Additional Discount
+  - paragraph
+  - text: apply_discount_on
+  - paragraph
+  - text: base_discount_amount
+  - paragraph
+  - text: coupon_code
+  - paragraph
+  - text: additional_discount_percentage
+  - paragraph
+  - text: discount_amount
+  - paragraph
+  - text: referral_sales_partner Tax Breakup
+  - paragraph
+  - text: other_charges_calculation Bundle Items packed_items Pricing Rules pricing_rules
+- tabpanel "Address & Contact":
+  - text: Billing Address
+  - paragraph
+  - text: customer_address
+  - paragraph
+  - text: address_display
+  - paragraph
+  - text: contact_person
+  - paragraph
+  - text: contact_display
+  - paragraph
+  - text: contact_mobile
+  - paragraph
+  - text: contact_email Shipping Address
+  - paragraph
+  - text: shipping_address_name
+  - paragraph
+  - text: shipping_address Company Address
+  - paragraph
+  - text: company_address
+  - paragraph
+  - text: company_address_display
+  - paragraph
+  - text: company_contact_person
+- tabpanel "Terms":
+  - text: Payment Terms
+  - paragraph
+  - text: payment_terms_template payment_schedule Terms and Conditions
+  - paragraph
+  - text: tc_name
+  - paragraph
+  - text: terms
+- tabpanel "More Info":
+  - text: Auto Repeat
+  - paragraph
+  - text: auto_repeat
+  - paragraph
+  - text: update_auto_repeat_reference Print Settings
+  - paragraph
+  - text: letter_head
+  - paragraph
+  - text: group_same_items
+  - paragraph
+  - text: select_print_heading
+  - paragraph
+  - text: language Lost Reasons
+  - paragraph
+  - text: lost_reasons
+  - paragraph
+  - text: competitors
+  - paragraph
+  - text: order_lost_reason Additional Info
+  - paragraph
+  - text: status
+  - paragraph
+  - text: customer_group
+  - paragraph
+  - text: territory
+  - paragraph
+  - text: campaign
+  - paragraph
+  - text: source
+  - paragraph
+  - text: opportunity
+  - paragraph
+  - text: supplier_quotation
+  - paragraph
+  - text: enq_det
+- tabpanel "Connections": Activity Graph Stats Connections
+- contentinfo
+- navigation:
+  - img
+  - text: January, 2026
+  - img
+- text: Su Mo Tu We Th Fr Sa 28 29 30 31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Today
+```
