@@ -1,0 +1,27 @@
+{
+  "data": {
+    "name": "customer.spec_1768426488467",
+    "owner": "Administrator",
+    "creation": "2026-01-14 23:34:49.302806",
+    "modified": "2026-01-14 23:34:49.302806",
+    "modified_by": "Administrator",
+    "docstatus": 0,
+    "idx": 0,
+    "naming_series": "CUST-.YYYY.-",
+    "customer_name": "customer.spec_1768426488467",
+    "customer_type": "Company",
+    "is_internal_customer": 0,
+    "language": "en",
+    "default_commission_rate": 0,
+    "so_required": 0,
+    "dn_required": 0,
+    "is_frozen": 0,
+    "disabled": 0,
+    "doctype": "Customer",
+    "accounts": [],
+    "portal_users": [],
+    "credit_limits": [],
+    "companies": [],
+    "sales_team": []
+  }
+}
