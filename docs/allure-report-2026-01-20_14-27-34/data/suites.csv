@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2419","Log in as ABOBA_BOBA via LogInUtils & storageState","chromium","2026-01-20","passed","2026-01-20","RESTORE SESSION DEMO: @sessions","specs/storage.state.spec.ts","",""
+"","5974","Log in as new random User via LogInUtils","chromium","2026-01-20","passed","2026-01-20","RESTORE SESSION DEMO: @sessions","specs/storage.state.spec.ts","",""
+"","2276","Check company presence and run set up if there is no company","chromium","2026-01-20","passed","2026-01-20","Ensure the set up process is completed and make it done if needed @setup","specs/fresh.setup.spec.ts","",""
+"","3910","Log in as ABOBA_BOBA and store sessionContext","chromium","2026-01-20","passed","2026-01-20","RESTORE SESSION DEMO: @sessions","specs/storage.state.spec.ts","",""
