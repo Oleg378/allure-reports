@@ -1,0 +1,16 @@
+{
+  "message": [
+    {
+      "name": "3nio084kmk",
+      "item_code": "CASE_ROUTING",
+      "price_list": "Standard Selling",
+      "price_list_rate": 140
+    },
+    {
+      "name": "3nit92v92g",
+      "item_code": "CASE_ROUTING",
+      "price_list": "Standard Buying",
+      "price_list_rate": 100
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "message": [
+    {
+      "name": "3o8hda7q94",
+      "item_code": "MESSAGES_FOR_PROPOSAL",
+      "price_list": "Standard Selling",
+      "price_list_rate": 140
+    },
+    {
+      "name": "3ob91soqkh",
+      "item_code": "MESSAGES_FOR_PROPOSAL",
+      "price_list": "Standard Buying",
+      "price_list_rate": 100
+    }
+  ]
+}
