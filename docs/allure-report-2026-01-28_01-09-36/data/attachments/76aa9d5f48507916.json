@@ -1,0 +1,4 @@
+{
+  "exc_type": "DoesNotExistError",
+  "_server_messages": "[\"{\\\"message\\\": \\\"Supplier SCIENCE&FICTION not found\\\", \\\"title\\\": \\\"Message\\\", \\\"indicator\\\": \\\"red\\\", \\\"raise_exception\\\": 1, \\\"__frappe_exc_id\\\": \\\"abacc8e7c133ecd9021ff1b31c859a24b6f8c7fc0bcf11e652d411f9\\\"}\"]"
+}
