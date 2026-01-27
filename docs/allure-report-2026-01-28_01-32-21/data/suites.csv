@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2458","Check company presence and run set up if there is no company","chromium","2026-01-27","passed","2026-01-27","Ensure the set up process is completed and make it done if needed @setup","specs/fresh.setup.spec.ts","",""
+"","30546","Quotation → Sales Order","chromium","2026-01-27","passed","2026-01-27","Sales Process: Quotation → Sales Order → Procurement → Shipment → Accounting @sales","specs/e2e/sales.flow.spec.ts","",""
+"","24423","Procurement","chromium","2026-01-27","passed","2026-01-27","Sales Process: Quotation → Sales Order → Procurement → Shipment → Accounting @sales","specs/e2e/sales.flow.spec.ts","",""
+"","25577","Delivery Note → Sales Invoice → Payment Entry","chromium","2026-01-27","passed","2026-01-27","Sales Process: Quotation → Sales Order → Procurement → Shipment → Accounting @sales","specs/e2e/sales.flow.spec.ts","",""
